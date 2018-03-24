@@ -6,35 +6,80 @@
         <meta charset="utf-8">
         <title>Cameron Walsh</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
 
     <body>
-        <header>
-            <!-- A container to hold the info. The header container will take care of the extended white space -->
-            <div class="headerWidth">
-            <!-- This is the title -->
-            <h1>Cameron Walsh</h1>
+            <header>
+                    <!-- A container to hold the info. The header container will take care of the extended white space -->
+                    <div class="container-fluid">
+        
+                        <div class="row headingRow">
+        
+                            <!-- SMALL AND UP SIDE SPACING -->
+        
+        
+                                <!-- ****THIS IS THE HEADING***** -->
+        
+                                
+                                <!-- Small Screen Heading -->
+                                <div class="hidden-xs col-sm-5">
+                                    <h1>Cameron Walsh</h1>
+                                </div>
+        
+                                <!-- Xtra Small Screen Heading -->
+                                <h1 class="text-center col-xs-12 hidden-sm hidden-md hidden-lg"> Cameron Walsh</h1>
+        
+                                     <!-- This is for the middles spacing -->
+                                    <div class="col-sm-3 hidden-xs"></div>
+        
+        
+                                <!-- ************NAVIGATION BAR********* -->
+        
+        
+                                <!-- Small Navigation Bar -->
+                                <nav class="hidden-xs col-sm-4 navProperties text-right">
+                                    <ul>
+                                        <li><a href="index.html">About</a></li>
+                                        <li><a href="portfolio.html">Portfolio</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+        
+                                <!-- Xtra Small Navigation Bar -->
+                                <nav class="text-center col-xs-12 hidden-sm hidden-md hidden-lg navProperties">
+                                        <ul>
+                                            <li><a href="index.html">About</a></li>
+                                            <li><a href="portfolio.html">Portfolio</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+        
+        
+                        </div>
+        
+                    </div>
+                </header>
 
-            <!-- This is the navigation bar for this website -->
-            <nav class="navProperties">
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            </div>
-        </header>
+<!-- ******************CONTENT SECTION********************** -->
+       
+        <section class="container">
+        
+        <div class="row marginAuto sectionRow">
 
-        <section class="allSections">
-
-        <section class="clear oneSection">
+            <section class="col-xs-12 col-md-7 oneSection">
             <!-- The heading for the about page -->
             <h2>About Me</h2>
             
-            <!-- An image of myself that will be floated to the left -->
-            <img class="floatImage imagePadding" src="DinosaurAndMe.jpg" alt="A Picture of Cameron">
+            <!-- ***********IMAGE SECTION************ -->
+            
+            <!-- Image takes up the whole screen for the extra small screen -->
+
+            <img class="hidden-sm hidden-md hidden-lg image-xs" src="DinosaurAndMe.jpg" alt="A Picture of Cameron">
+            
+            <!-- Image Floated and to the left for medium screens -->
+            <img class="hidden-xs floatImage imagePadding" src="DinosaurAndMe.jpg" alt="A Picture of Cameron">
 
             <!-- This is the introduction information -->
             <p> Hi! I am Cameron Walsh. Welcome to my page!</p>
@@ -42,9 +87,15 @@
             <p>Currently, I'm back in school learning web development in UCF's Coding Bootcamp and will be looking for employment after. In the meantime, I spend my time exploring Florida and playing fetch with my 4 dogs. None of them have yet to give me the stick back. One eats them.</p>
         </section>
 
+        
+            <!-- MEDIUM SCREEN AND UP SPACING -->
+
+            <div class="col-md-1"></div>
+
+
         <!-- Connect With Me Section -->
 
-        <section class="Section2">
+        <section class="col-xs-12 col-md-4 Section2">
             <h2>Connect With Me</h2>
 
             <div class="connectwithmecontainer">
@@ -59,6 +110,8 @@
                 <img class="floatImage width100" src="StackOverflowImage.jpg" alt="Stack Overflow Link">
             </div>
         </section>
+
+        </div>
 
         </section>
 

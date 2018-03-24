@@ -7,14 +7,11 @@ body {
 
 /* Add and align header */
 header .headerWidth {
-    height: 73.6px;
-    width: 960px;
-    margin: auto;
     background-color: #ffffff;
+    display: inline;
 }
 /* The white box that extends past the 960px width */
 header{
-    height: 73.6px;
     margin: 0;
     background-color: #ffffff;
     border-bottom: 4px solid #cccccc;
@@ -26,25 +23,22 @@ h1 {
     color: #ffffff;
     font-size: 30px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    float: left;
     padding: 20px;
     margin: 0px;
+    width: 280px;
 }
 
 /* float the nav section to the right */
 .navProperties {
-    width: 262px;
-    text-align: right;
-    float: right;
     /* center navigation bar */
     padding-top: 11.6px;
-    margin-top: 0px;
     cursor: pointer;
 }
 
 /* make navigation list horizontal and put horizontal lines between */
 nav ul {
     list-style: none;
+    padding-left: 0px;
 }
 
 nav li {
@@ -79,34 +73,28 @@ h2 {
     border-bottom: 1px solid #777777;
 }
 
-/* Overall Section with width of 920px */
-.allSections {
-    width: 960px;
+.marginAuto {
     margin: auto;
 }
 
 /* content style when there is only one section */
 .oneSection {
     background-color: #ffffff;
-    width: 598px;
     padding: 20px 20px 40px 20px;
     border: 1px solid #dddddd;
     margin-top: 50px;
     margin-bottom: 50px;
-    float: left;
 }
 
 .Section2 {
     background-color: #ffffff;
-    width: 220px;
     padding: 20px 20px 40px 20px;
     border: 1px solid #dddddd;
     margin-top: 50px;
     margin-bottom: 50px;
-    float: right;
 }
 
-.container {
+.container1 {
     width: 49%;
     display: inline-block; 
 }
@@ -132,6 +120,11 @@ h2 {
     padding-right: 20px;
     padding-bottom: 20px;
     width: 200px;
+}
+
+.image-xs {
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 .ConnectWithMeImages {
@@ -204,7 +197,23 @@ footer {
 }
 
 /* ******************MEDIA TAGS********************* */
+
+@media (min-width: 768px) {
+    .headingRow{
+        max-width: 990px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .sectionRow{
+        max-width: 960px;
+        margin: auto;
+    }
+}
+
 /*
+
 @media only screen and (max-width: 1000px) {
 
     /* Have a margin on both sides of the sections */
@@ -246,23 +255,14 @@ footer {
 
 /* Media changes at 569px */
 /*
-@media only screen and (max-width: 641px) {
-
-    header .headerWidth {
-        height: 125px;
-        margin: 0px;
-    }
+@media only screen and (max-width: 569px) {
     
     h1 {
-        float: none;
-        width: auto;
         text-align: center;
     }
 
     .navProperties {
-        width: auto;
         text-align: center;
-        float: none;
         /* center navigation bar */ /*
         padding-top: 3px;
         margin-top: 0px;
