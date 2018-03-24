@@ -204,11 +204,11 @@ footer {
 }
 
 /* ******************MEDIA TAGS********************* */
-
+/*
 @media only screen and (max-width: 1000px) {
 
     /* Have a margin on both sides of the sections */
-
+/*
     header .headerWidth {
         width: auto;
         margin-right: 10px;
@@ -225,7 +225,7 @@ footer {
 @media only screen and (max-width:962px) {
 
     /* Make the "Contact Me" Section Move To The Bottom */
-
+/*
     .allSections {
         width: auto;
     }
@@ -245,7 +245,7 @@ footer {
 }
 
 /* Media changes at 569px */
-
+/*
 @media only screen and (max-width: 641px) {
 
     header .headerWidth {
@@ -263,7 +263,7 @@ footer {
         width: auto;
         text-align: center;
         float: none;
-        /* center navigation bar */
+        /* center navigation bar */ /*
         padding-top: 3px;
         margin-top: 0px;
         cursor: pointer;
@@ -273,7 +273,7 @@ footer {
         padding: 0px;
     }
 
-    /* Text is to go under the picture at this width in index.html*/
+    /* Text is to go under the picture at this width in index.html*/ /*
     .floatImage {
         float: none;
     }
@@ -284,7 +284,7 @@ footer {
     }
 
     /* Portfolio Pictures Go One Under The Other */
-
+/*
     .container {
         width: 100%;
     }
@@ -293,4 +293,4 @@ footer {
         width: 100%;
         padding-bottom: 2%;
     }
-}
+} */
