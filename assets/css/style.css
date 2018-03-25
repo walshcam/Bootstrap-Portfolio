@@ -99,7 +99,7 @@ h2 {
 }
 
 .portfolioPicture {
-    width: 98%;
+    width: 100%;
     padding-bottom: 2%;
 }
 
@@ -140,7 +140,7 @@ h2 {
     background-color: #4aaaa5;
     position: relative;
     text-align: center;
-    width:98%;
+    width:100%;
     padding: 20px 0px;
     bottom: 80px;
 }
